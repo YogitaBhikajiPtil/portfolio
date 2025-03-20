@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yogita Patil - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <h1>Yogita Patil</h1>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills & Tools</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+      <li><a href="#resume" class="resume-btn">Resume</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="header-content">
+      <h1>Hi 👋, I'm Yogita Patil</h1>
+      <p>Frontend Developer | React Enthusiast | Team Player</p>
+      <p>Passionate about building scalable web solutions using modern technologies.</p>
+      <a href="#contact" class="connect-btn">Connect with Me 🚀</a>
+    </div>
+    <div class="profile-picture">
+      <img src="./assets/IMG_20250320_123146_300.jpg" alt="Yogita Patil">
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Yogita Patil, a passionate frontend developer skilled in HTML, CSS, JavaScript, and React. I enjoy creating beautiful and functional web applications.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Wedding Planner Website</h3>
+      <p>A complete wedding planning solution with sorting, filtering, and user-friendly features.</p>
+      <a href="https://yogitabhikajiptil.github.io/DreamWedding/">View Project</a>
+    </div>
+    
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yogita.patil@example.com</p>
+    <p>GitHub: <a href="https://github.com/YogitaBhikajiPtil">github.com/YogitaPatil</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yogita Patil. All rights reserved.</p>
+  </footer>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+    .resume-btn {
+      background-color: #ff6b6b;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+    header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 4rem 2rem;
+    }
+    .profile-picture img {
+      width: 250px;
+      border-radius: 50%;
+    }
+    .connect-btn {
+      display: inline-block;
+      background-color: #1e90ff;
+      color: white;
+      padding: 12px 24px;
+      margin-top: 20px;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+    .project-card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+
+  <script>
+    document.querySelector('.connect-btn').addEventListener('click', function() {
+      alert('Thank you for connecting with me!');
+    });
+  </script>
+</body>
+</html>
